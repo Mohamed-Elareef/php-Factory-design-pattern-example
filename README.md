@@ -33,6 +33,10 @@ $pet = $factory->getPet("dog", "Rex");
 echo $pet->speak();
 ```
 
+This will create a new Dog object with the name "Rex" and call its speak method, which will output "Woof!"
+
+
+
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
