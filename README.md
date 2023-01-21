@@ -23,6 +23,16 @@ The code will create a PetFactory object and use its getPet method to create a D
 ## How it works
 The PetFactory class is a factory that creates Dog and Cat objects. The getPet method is the factory method, which takes in a petType and a name and returns a new Dog or Cat object. The client code can use the factory to create a new pet object without having to know the exact class of the object that will be created.
 
+
+## Usage
+To use the factory in your code, you need to create an instance of the PetFactory class and call the getPet method with the appropriate parameters.
+
+```php
+$factory = new PetFactory();
+$pet = $factory->getPet("dog", "Rex");
+echo $pet->speak();
+```
+
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
